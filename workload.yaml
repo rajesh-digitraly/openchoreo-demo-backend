@@ -1,0 +1,10 @@
+apiVersion: openchoreo.dev/v1alpha1
+metadata:
+  name: demo-backend-workload
+
+endpoints:
+  - name: http
+    type: HTTP
+    port: 8080
+    visibility:
+      - external
